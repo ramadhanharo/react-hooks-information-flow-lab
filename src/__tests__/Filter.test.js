@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { render, screen, fireEvent } from "@testing-library/react";
-import Filter from "../components/Filter";
+import Filter from "../components/Filter";// Ensure the path and file name are correct
 
 test("displays the <select> element", () => {
   render(<Filter />);
